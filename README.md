@@ -41,3 +41,17 @@ Professors will be able to approved submitted quest to rewards. More importantly
 ![alt text](https://manoaquest.github.io/screenshots/ta-screenshot.png "Submitted Quest Approval Page 2")
 
 Teacher assistants will be able to also approve submitted quest. This is to help the professor keep up with approvals.
+
+## Installation
+
+Download the system, cd into the app directory, then execute:
+
+```
+meteor npm install
+```
+
+```
+meteor npm run start
+```
+
+The settings file is needed to provide CAS parameter information. Note that you won't be able to successfully login until you edit the [settings.development.json](https://github.com/ics-software-engineering/meteor-example-uh-cas/blob/master/config/settings.development.json) file to indicate that your UH account should be one of those allowed to login.
