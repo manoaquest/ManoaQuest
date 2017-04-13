@@ -4,6 +4,12 @@ body {
   margin: 0;
 }
 
+.content-container{
+  padding: 10px 50px 10px 50px;
+  background-image: url('images/parchmentbg3.png');
+  background-size: 100%
+}
+
 
 .ui.inverted.menu{
   background-color: #6FB138;
