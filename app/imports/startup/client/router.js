@@ -22,13 +22,6 @@ FlowRouter.route('/create-quest', {
   },
 });
 
-// FlowRouter.route('/add-quest', {
-//   name: 'Add_Quest_Page',
-//   action() {
-//     BlazeLayout.render('App_Body', { main: 'Add_Quest_Page' });
-//   },
-// });
-
 FlowRouter.route('/student-home-page', {
   name: 'Student_Home_Page',
   action() {

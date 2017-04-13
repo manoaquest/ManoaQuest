@@ -1,3 +1,5 @@
+import { Template } from 'meteor/templating';
+
 var $input;
 
 function onInputFocus(event) {
