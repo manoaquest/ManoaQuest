@@ -81,6 +81,12 @@ textarea {
   transition: transform 0.3s;
 }
 
+.content-container{
+  padding: 10px 50px 10px 50px;
+  background-image: url('images/parchmentbg3.png');
+  background-size: 100%
+}
+
 .input__label::before,
 .input__label:after {
   content: '';
